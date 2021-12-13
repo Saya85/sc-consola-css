@@ -109,7 +109,7 @@ height: 31px;
 }
 /*animacion de la pantalla mejorar js*/ 
 
-/*.animacion{
+.animacion{
   opacity: 0;
   display: inline;
   position: relative;
@@ -128,7 +128,27 @@ height: 31px;
   font-size: 15px;
   font-family: monospace;
 }
-*/
+
+.logotipo{
+  position: absolute;
+  top:335px;
+  width: 300px;
+  height: 15px;
+  left: 20px;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+span{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+#tm{
+  font-size: 9px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
 
 /*cluceta de direccion*/
 .controls-cont{
@@ -182,7 +202,7 @@ height: 31px;
   height: 0;
   border: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-top: 7px solid #dedede;
+  border-top: 7px solid rgb(211, 20, 20);
 }
 .vertical::after{
   content: "";
@@ -193,7 +213,7 @@ height: 31px;
   height: 0;
   border: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-bottom: 7px solid #dedede;
+  border-bottom: 7px solid rgb(211, 20, 20);
 }
 .horizontal::after{
   content: "";
@@ -204,7 +224,7 @@ height: 31px;
   height: 0;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-bottom: 7px solid #dedede;
+  border-bottom: 7px solid rgb(211, 20, 20);
 }
 .horizontal::before{
   content: "";
@@ -215,7 +235,7 @@ height: 31px;
   height: 0;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-top: 7px solid #dedede;
+  border-top: 7px solid rgb(211, 20, 20);
 }
 /*botones a y b*/
 .btn-AB{
@@ -224,7 +244,7 @@ height: 31px;
   left: 252px;
   width: 130px;
   height: 60px;
-  background: #DFDFDF;
+  background: rgb(211, 20, 20);
   border-radius: 30px;
   -webkit-transform: rotate(-25deg);
 }
@@ -235,7 +255,7 @@ height: 31px;
   right: 9px;
   width: 44px;
   height: 44px;
-  background: #A93671;
+  background:rgb(68, 68, 68);
   border-radius: 100%;
   -webkit-transform: rotate(180deg);
 }
@@ -246,9 +266,29 @@ height: 31px;
   right: 75px;
   width: 44px;
   height: 44px;
-  background: #A93671;
+  background: rgb(68, 68, 68);
   border-radius: 100%;
   -webkit-transform: rotate(180deg);
+}
+.boton-A{
+  position: absolute;
+  top: 57px;
+  right: -3px;
+  width: 44px;
+  height: 44px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.boton-B{
+  position: absolute;
+  top: 57px;
+  right: 63px;
+  width: 44px;
+  height: 44px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 /*botones de estar y select*/
 .btn-start-select{
@@ -256,12 +296,31 @@ height: 31px;
   top: 205px;
   left: 140px;
   height: 12px;
-  width: 60px;
-  background: #999;
+  width: 55px;
+  background: rgb(68, 68, 68);
   border-radius: 10px;
   -webkit-transform: rotate(-25deg);
-  box-shadow: 57px 27px #999,  0 0 0 5px #dfdfdf, 57px 27px 0 5px #dfdfdf;
+  box-shadow: 57px 27px rgb(68, 68, 68),  0 0 0 5px rgb(211, 20, 20), 57px 27px 0 5px rgb(211, 20, 20);
 }
+.start{
+  position:absolute;
+  top:45px;
+  left: 69px; 
+  height: 12px;
+  width: 60px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.select{
+  position: absolute;
+  top:17px;
+  left: 5px; 
+  height: 12px;
+  width: 60px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
 /*altaboces*/
 .altavoz{
   content: "";
