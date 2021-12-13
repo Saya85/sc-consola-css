@@ -43,4 +43,4 @@ Futuramente quiero añadir Js para que al accionar el interruptor saliera en la 
 
 ver proyecto
 
-https://saya85.github.io/sc-consola-css/game%20boy/index.html
+[ver proyecto](https://saya85.github.io/sc-consola-css/game%20boy/index.html)
