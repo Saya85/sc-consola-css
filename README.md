@@ -40,3 +40,6 @@ donde ice una sombra de los mismos para crear el segundo boton de cada uno.
 
      
 Futuramente quiero añadir Js para que al accionar el interruptor saliera en la pantalla el inicio de un juego y el led encendido.
+
+#ver proyecto
+<a>https://saya85.github.io/sc-consola-css/game%20boy/index.html</a>
